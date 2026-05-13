@@ -1,0 +1,7 @@
+.DS_Store
+/writable/cache
+/writable/debugbar
+/writable/logs
+/writable/session
+.env
+
