@@ -24,7 +24,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-link">
-                            <i class="fa-solid fa-folder-open"></i> Szolgáltatások
+                            <i class="fa-brands fa-mailchimp"></i> Szolgáltatások
                         </a>
                     </li>
                     <li class="nav-item">
@@ -34,7 +34,7 @@
                     </li>
 		    <li class="nav-item">
                         <a href="<?= base_url('contacts') ?>" class="nav-link">
-                        <i class="fa-solid fa-rectangle-list"></i> Kapcsolat
+                        <i class="fa-solid fa-address-card"></i> Kapcsolat
                         </a>
                     </li>
                     <li class="nav-item">
