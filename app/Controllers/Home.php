@@ -8,4 +8,14 @@ class Home extends BaseController
     {
         return view('dashboard');
     }
+
+    public function articles(): string
+    {
+        return view('articles/article-list');
+    }
+
+    public function contacts(): string
+    {
+        return view('contacts/contact-list');
+    }
 }

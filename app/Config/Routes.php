@@ -13,6 +13,8 @@ $routes->get('services/new', 'Services::create');
 $routes->post('services/new', 'Services::create');
 $routes->get('services/edit/(:num)', 'Services::edit/$1');
 $routes->post('services/edit/(:num)', 'Services::edit/$1');
+$routes->get('articles', 'Home::articles');
+$routes->get('contacts', 'Home::contacts');
 
 
 $routes->get('logout', 'Home::index');
